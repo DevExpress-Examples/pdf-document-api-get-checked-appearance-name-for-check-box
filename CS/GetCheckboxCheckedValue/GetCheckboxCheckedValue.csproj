@@ -33,16 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v17.2, Version=17.2.5.0">
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.15.0">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Docs.v17.2, Version=17.2.5.0">
+    <Reference Include="DevExpress.Docs.v17.2, Version=17.2.15.0">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.5.0">
+    <Reference Include="DevExpress.Pdf.v17.2.Core, Version=17.2.15.0">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Pdf.v17.2.Drawing, Version=17.2.5.0">
+    <Reference Include="DevExpress.Pdf.v17.2.Drawing, Version=17.2.15.0">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="PresentationFramework" />
