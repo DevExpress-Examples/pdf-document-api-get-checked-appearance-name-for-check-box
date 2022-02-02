@@ -8,7 +8,7 @@
 
 * [Program.cs](./CS/GetCheckboxCheckedValue/Program.cs) (VB: [Program.vb](./VB/GetCheckboxCheckedValue/Program.vb))
 <!-- default file list end -->
-# How to obtain a checked appearance name for a check box
+# PDF Document API - Obtain a Checked Appearance Name for a Check Box
 
 <strong>Note:</strong> with the 21.1 major release, the <b>PdfDocumentFacade</b> class allows you to change the PDF document without access to its inner structure. Use the <b>PdfDocumentFacade.AcroForm</b> property to get interactive form field options. You can change form field and appearance properties.
 
