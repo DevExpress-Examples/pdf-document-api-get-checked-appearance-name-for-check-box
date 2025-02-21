@@ -1,4 +1,5 @@
 ﻿using DevExpress.Pdf;
+using System.Diagnostics;
 
 namespace GetCheckboxCheckedValue
 {
@@ -9,7 +10,7 @@ namespace GetCheckboxCheckedValue
         {
             // Load a document with an interactive form.
             PdfDocumentProcessor processor = new PdfDocumentProcessor();
-            processor.LoadDocument("..\\..\\InteractiveForm.pdf");
+            processor.LoadDocument("..\\..\\..\\InteractiveForm.pdf");
 
             PdfDocumentFacade documentFacade = processor.DocumentFacade;
             PdfAcroFormFacade acroForm = documentFacade.AcroForm;
@@ -21,7 +22,9 @@ namespace GetCheckboxCheckedValue
             genderField.IsChecked = true;
 
             // Save the modified document.
-            processor.SaveDocument("..\\..\\Result.pdf");
+            processor.SaveDocument("..\\..\\..\\Result.pdf");
+
+            Process.Start(new ProcessStartInfo("..\\..\\..\\Result.pdf") { UseShellExecute = true });
         }
 
     }

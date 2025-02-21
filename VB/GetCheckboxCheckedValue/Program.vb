@@ -7,7 +7,7 @@ Namespace GetCheckboxCheckedValue
         Shared Sub Main(ByVal args As String())
             ' Load a document with an interactive form.
             Dim processor As PdfDocumentProcessor = New PdfDocumentProcessor()
-            processor.LoadDocument("..\..\InteractiveForm.pdf")
+            processor.LoadDocument("..\..\..\InteractiveForm.pdf")
             Dim documentFacade As PdfDocumentFacade = processor.DocumentFacade
             Dim acroForm As PdfAcroFormFacade = documentFacade.AcroForm
             ' Obtain the check box form field:
@@ -15,7 +15,7 @@ Namespace GetCheckboxCheckedValue
             ' Specify a checked value for the Female form field:
             genderField.IsChecked = True
             ' Save the modified document.
-            processor.SaveDocument("..\..\Result.pdf")
+            processor.SaveDocument("..\..\..\Result.pdf")
         End Sub
     End Class
 End Namespace
